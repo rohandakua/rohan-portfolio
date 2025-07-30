@@ -126,7 +126,7 @@ const ApkDownloads: React.FC = () => {
             <div className="mt-4 pt-4 border-t border-gray-800">
               <div className="flex items-center justify-between text-xs text-gray-500">
                 <span>Latest Version</span>
-                <span>Android 5.0+</span>
+                <span>Android 8.0+</span>
               </div>
             </div>
           </div>
