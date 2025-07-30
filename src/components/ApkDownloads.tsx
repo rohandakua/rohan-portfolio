@@ -13,36 +13,44 @@ interface App {
 const apps: App[] = [
   {
     name: 'Clockxy',
-    description: 'Feature-rich clock application with customizable themes and productivity tools',
-    apkLink: 'https://github.com/rohandakua/Clockxy/releases/download/v1.0/clockxy-v1.0.apk', // Replace with your actual link
-    githubLink: 'https://github.com/rohandakua/Clockxy', // Replace with your actual repo
-    youtubeLink: 'https://youtube.com/watch?v=YOUR_VIDEO_ID', // Replace with your actual video
+    description: 'Feature-rich clock application with customizable themes and productivity tools - available for INTERNAL TESTING in PLAYSTORE',
+    apkLink: 'https://drive.google.com/file/d/1cBJUs7ZjAtj4K_qgI79lUfw29dPzaqRJ/view?usp=sharing', // Replace with your actual link
+    githubLink: 'https://github.com/rohandakua/Clocxy-Android-App', // Replace with your actual repo
+    youtubeLink: 'https://www.youtube.com/shorts/bSmKdNvb6yk', // Replace with your actual video
     features: ['Custom Themes', 'Alarms', 'Timer', 'Stopwatch']
+  },
+  {
+    name: 'Gymxy',
+    description: 'Complete fitness tracking app with workout plans and progress monitoring',
+    apkLink: 'https://drive.google.com/file/d/1XbYdFWbEZT2q-rdmJXt2T_n7CLtsd8PU/view?usp=drive_link', // Replace with your actual link
+    githubLink: 'https://github.com/rohandakua/Gymxy', // Replace with your actual repo
+    features: ['Workout Plans', 'Progress Tracking', 'Exercise Library', 'Statistics']
   },
   {
     name: 'Poll Creator',
     description: 'Create and manage polls with real-time voting and results visualization',
-    apkLink: 'https://github.com/rohandakua/PollCreator/releases/download/v1.0/poll-creator-v1.0.apk', // Replace with your actual link
-    githubLink: 'https://github.com/rohandakua/PollCreator', // Replace with your actual repo
-    youtubeLink: 'https://youtube.com/watch?v=YOUR_VIDEO_ID', // Replace with your actual video
+    githubLink: 'https://github.com/rohandakua/Poll-Creator-backed-by-blockchain', // Replace with your actual repo
+    youtubeLink: 'https://youtube.com/shorts/hrD4jjh_d6E?feature=share', // Replace with your actual video
     features: ['Real-time Voting', 'Results Analytics', 'Share Polls', 'Custom Options']
   },
   {
     name: 'MBTI Personality Checker',
     description: 'Comprehensive MBTI personality assessment with detailed analysis and insights',
-    apkLink: 'https://github.com/rohandakua/MBTI-Checker/releases/download/v1.0/mbti-checker-v1.0.apk', // Replace with your actual link
-    githubLink: 'https://github.com/rohandakua/MBTI-Checker', // Replace with your actual repo
-    features: ['16 Personality Types', 'Detailed Analysis', 'Career Suggestions', 'Compatibility']
+    apkLink: 'https://github.com/rohandakua/MBTI-app-/blob/master/app-debug.apk', // Replace with your actual link
+    githubLink: 'https://github.com/rohandakua/MBTI-app-', // Replace with your actual repo
+    features: ['16 Personality Types']
   },
   {
-    name: 'Gymxy',
-    description: 'Complete fitness tracking app with workout plans and progress monitoring',
-    apkLink: 'https://github.com/rohandakua/Gymxy/releases/download/v1.0/gymxy-v1.0.apk', // Replace with your actual link
-    githubLink: 'https://github.com/rohandakua/Gymxy', // Replace with your actual repo
-    youtubeLink: 'https://youtube.com/watch?v=YOUR_VIDEO_ID', // Replace with your actual video
-    features: ['Workout Plans', 'Progress Tracking', 'Exercise Library', 'Statistics']
-  }
+    name: 'Rapido assignment',
+    description: 'A comprehensive Android application designed to assist Rapido partners in managing their daily operations efficiently.',
+    apkLink: 'https://github.com/rohandakua/buildYourOwnApp/blob/main/Rapido-Partner-Helper_app.apk', // Replace with your actual link
+    githubLink: 'https://github.com/rohandakua/buildYourOwnApp', // Replace with your actual repo
+    youtubeLink: 'https://youtube.com/shorts/2f_-a349auI', // Replace with your actual video
+    features: ['Koin','MVVM','Jetpack Compose','Room', 'Retrofit','Coroutines']
+  },
+  
 ];
+
 
 const ApkDownloads: React.FC = () => {
   return (
