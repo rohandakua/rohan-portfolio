@@ -229,9 +229,10 @@ const SkillsShowcase: React.FC = () => {
         <div className="inline-block px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-700 rounded-full text-sm text-gray-300 mb-8 border border-gray-600">
           <span className="font-medium">Technical Arsenal</span>
         </div>
-        <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-          Skills & Technologies
-        </h2>
+        <h2 className="text-4xl md:text-6xl font-bold mb-6 pb-2 leading-normal bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+  Skills & Technologies
+</h2>
+
         <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
           A comprehensive showcase of the technologies and tools I've mastered throughout my development journey.
         </p>
