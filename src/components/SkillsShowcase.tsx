@@ -74,7 +74,7 @@ const skills: Skill[] = [
       </svg>
     ), 
     category: 'mobile', 
-    proficiency: 'intermediate',
+    proficiency: 'advanced',
     color: 'from-blue-500 to-indigo-500'
   },
   { 
@@ -85,7 +85,7 @@ const skills: Skill[] = [
       </svg>
     ), 
     category: 'mobile', 
-    proficiency: 'intermediate',
+    proficiency: 'advanced',
     color: 'from-green-500 to-teal-500'
   },
   
@@ -100,7 +100,7 @@ const skills: Skill[] = [
       </svg>
     ), 
     category: 'backend', 
-    proficiency: 'intermidate',
+    proficiency: 'advanced',
     color: 'from-yellow-500 to-orange-500'
   },
   
@@ -113,7 +113,7 @@ const skills: Skill[] = [
       </svg>
     ), 
     category: 'blockchain', 
-    proficiency: 'beginner',
+    proficiency: 'intermediate',
     color: 'from-gray-600 to-gray-800'
   },
   { 
